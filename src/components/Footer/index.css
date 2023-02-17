@@ -1,0 +1,46 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    transition: all 0.5s;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 1   0em;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #00a1ff;
+    transition: all 0.3s;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.2);
+    transition: all 0.3s;
+  }
+  
+  .me-3{
+    padding: 20px;
+    margin: 10px;
+  }
+
+  

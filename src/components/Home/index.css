@@ -1,0 +1,19 @@
+h1 {
+    position: relative;
+  }
+  .heading {
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    animation: scroll 10s linear infinite;
+  }
+  
+  @keyframes scroll {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+  
